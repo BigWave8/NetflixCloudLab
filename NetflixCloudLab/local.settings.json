@@ -1,0 +1,11 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "SqlConnectionString": "Server=tcp:netflix-sql-server.database.windows.net,1433;Initial Catalog=netflix-cloud-sql;Persist Security Info=False;User ID=netflix-admin;Password=pass_1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;MultipleActiveResultSets=true;"
+    },
+    "Host": {
+        "CORS": "*"
+    }
+}
